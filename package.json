@@ -1,0 +1,24 @@
+{
+  "name": "podcast-feed",
+  "version": "1.0.0",
+  "description": "feed for my podcast",
+  "main": "feed.js",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node feed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alin-rautoiu/laocanadevedeafeed.git"
+  },
+  "author": "alin rautoiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alin-rautoiu/laocanadevedeafeed/issues"
+  },
+  "homepage": "https://github.com/alin-rautoiu/laocanadevedeafeed#readme"
+}
