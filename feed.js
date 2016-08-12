@@ -1,37 +1,15 @@
 var express = require('express');
 var builder = require('xmlbuilder');
 
-// var feed = {
-//     'rss' : {
-//         '@version' : '2.0'
-//     },
-//     'channel' : 
-//     {
-//         'title' : 'La o cană de bedea',
-//         'link' : 'https://archive.org/details/@alinrautoiu?and[]=subject%3A%22la+o+cana+de+bedea%22',
-//         'description' : 'Podcast unde Alin discuta despre benzi desenate cu artisti de benzi desenate',
-//         'item' : {
-//             'title' : 'Ep. 1',
-//             'link' : 'https://archive.org/download/interviu_prandea/interviu_prandea_vbr.m3u',
-//             'description' : 'Ep. 1 cu Cristian Prandea'
-//         },
-//         'item' : {
-//             'title' : 'Ep. 1',
-//             'link' : 'https://archive.org/download/interviu_prandea/interviu_prandea_vbr.m3u',
-//             'description' : 'Ep. 1 cu Cristian Prandea'
-//         },
-//         'item' : {
-//             'title' : 'Ep. 1',
-//             'link' : 'https://archive.org/download/interviu_prandea/interviu_prandea_vbr.m3u',
-//             'description' : 'Ep. 1 cu Cristian Prandea'
-//         },
-        
-//     }
-// };
-
 var root = builder
     .create('rss')
         .att('version', '2.0')
+        .att('xmlns:atom', 'http://www.w3.org/2005/Atom')
+        .ele('atom:link')
+            .att('href', 'https://bedea.herokuapp.com/bedea.rss')
+            .att('rel', 'self')
+            .att('type', 'application/rss+xml')
+            .up()
         .ele('channel')
             .ele('title', 'La o cană de bedea')
                 .up()
