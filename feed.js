@@ -24,7 +24,7 @@ var root = builder
                     .up()
                 .ele('description', 'Ep. 1 cu Cristian Prandea')
                     .up()
-                .ele('guid', 'Episodul 1 - Dungeon Quest cu Cristian Prandea')
+                .ele('guid', 'https://archive.org/download/interviu_prandea/interviu_prandea.mp3')
                     .up()
                 .up()
             .ele('item')
@@ -34,7 +34,7 @@ var root = builder
                     .up()
                 .ele('description', 'Alături de Anna Benczédi discutăm despre Giant Days. Anna este co-autoarea webcomicului Știma Apelor și autoarea povestirii Jurnalul de trei parale din Țara Desenată.')
                     .up()
-                .ele('guid', 'Episodul 2 - Giant Days cu Anna Benczédi')
+                .ele('guid', 'https://archive.org/download/alins_interviu_anna_modificat_la_greu/alins_interviu_anna_modificat_la_greu.mp3')
                     .up()
                 .up()
             .ele('item')
@@ -44,7 +44,7 @@ var root = builder
                     .up()
                 .ele('description', 'Ep. 3 cu Elena barbu despre One-Punch Man.')
                     .up()
-                .ele('guid', 'Episodul 3 - One-Punch Man cu Elena Barbu')
+                .ele('guid', 'https://archive.org/download/elena_one_punch_man/elena_one_punch_man.mp3')
                     .up()
                 .up();
 
