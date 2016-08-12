@@ -4,13 +4,7 @@ var builder = require('xmlbuilder');
 var root = builder
     .create('rss')
         .att('version', '2.0')
-        .att('xmlns:atom', 'http://www.w3.org/2005/Atom')
         .ele('channel')
-            .ele('atom:link')
-                .att('href', 'https://bedea.herokuapp.com/bedea.rss')
-                .att('rel', 'self')
-                .att('type', 'application/rss+xml')
-                .up()
             .ele('title', 'La o cană de bedea')
                 .up()
             .ele('link', 'https://archive.org/details/%40alinrautoiu?and%5B%5D=subject%3A%22la+o+cana+de+bedea%22')
