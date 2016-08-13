@@ -55,6 +55,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/elena_one_punch_man/elena_one_punch_man.mp3')
                     .up()
+                .up()
+            .ele('item')
+                .ele('title', 'Episodul 4 - I Feel Sick cu Vlad Forsea')
+                    .up()
+                .ele('link', 'https://archive.org/download/interviu_vlad_i_feel_sick/interviu_vlad_i_feel_sick.mp3')
+                    .up()
+                .ele('description', 'Episodul 4 - I Feel Sick cu Vlad Forsea.')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '46956544')
+                    .att('url', 'https://archive.org/download/interviu_vlad_i_feel_sick/interviu_vlad_i_feel_sick.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/interviu_vlad_i_feel_sick/interviu_vlad_i_feel_sick.mp3')
+                    .up()
                 .up();
 
 var app = express();
