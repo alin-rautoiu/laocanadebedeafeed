@@ -70,6 +70,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/interviu_vlad_i_feel_sick/interviu_vlad_i_feel_sick.mp3')
                     .up()
+                .up()
+            .ele('item')
+                .ele('title', 'Episodul 5 - Red Son cu Alexander Glonin')
+                    .up()
+                .ele('link', 'https://archive.org/download/interviu_alexander_redson/interviu_alexander_redson.flac')
+                    .up()
+                .ele('description', 'Episodul 5 - Red Son cu Alexander Glonin.')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '426602496')
+                    .att('url', 'https://archive.org/download/interviu_alexander_redson/interviu_alexander_redson.flac')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/interviu_alexander_redson/interviu_alexander_redson.flac')
+                    .up()
                 .up();
 
 var app = express();
