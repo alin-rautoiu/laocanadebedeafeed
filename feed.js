@@ -85,6 +85,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/interviu_alexander_redson/interviu_alexander_redson.flac')
                     .up()
+                .up()
+                .ele('item')
+                .ele('title', 'Episodul 6 - The Arrival cu Ileana Surducan')
+                    .up()
+                .ele('link', 'https://archive.org/download/ep7_ileana/alin_audio_ileana.mp3')
+                    .up()
+                .ele('description', 'Episodul 6 - The Arrival cu Ileana Surducan.')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '82130225')
+                    .att('url', 'https://archive.org/download/ep7_ileana/alin_audio_ileana.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/ep7_ileana/alin_audio_ileana.mp3')
+                    .up()
                 .up();
 
 var app = express();
