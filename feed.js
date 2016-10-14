@@ -145,6 +145,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/RaduEp8Lipeala/radu_ep8%20lipeala.mp3')
                     .up()
+                .up()
+                .ele('item')
+                .ele('title', 'Episodul 9.1 - 5000 km Per Second cu Claudiu Revnic')
+                    .up()
+                .ele('link', 'https://archive.org/download/claudiu_part_1/claudiu_part_1.mp3')
+                    .up()
+                .ele('description', 'Episodul 9.1 - 5000 km Per Second cu Claudiu Revnic')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '61813403')
+                    .att('url', 'https://archive.org/download/claudiu_part_1/claudiu_part_1.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/claudiu_part_1/claudiu_part_1.mp3')
+                    .up()
                 .up();
 
 var app = express();
