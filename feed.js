@@ -160,6 +160,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/claudiu_part_1/claudiu_part_1.mp3')
                     .up()
+                .up()
+                .ele('item')
+                .ele('title', 'Episodul 9.2 - Treviso și Crack cu Cladiu Revnic')
+                    .up()
+                .ele('link', 'https://archive.org/download/claudiu_part2/claudiu_part2.mp3')
+                    .up()
+                .ele('description', 'Episodul 9.2 - Treviso și Crack cu Cladiu Revnic')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '70918691')
+                    .att('url', 'https://archive.org/download/claudiu_part2/claudiu_part2.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/claudiu_part2/claudiu_part2.mp3')
+                    .up()
                 .up();
 
 var app = express();
