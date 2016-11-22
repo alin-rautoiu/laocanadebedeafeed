@@ -175,6 +175,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/claudiu_part2/claudiu_part2.mp3')
                     .up()
+                .up()
+                .ele('item')
+                .ele('title', 'Episodul 10 - Beauty cu Maria Surducan')
+                    .up()
+                .ele('link', 'https://archive.org/download/maria_201611/maria.mp3')
+                    .up()
+                .ele('description', 'Episodul 10 - Beauty cu Maria Surducan')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '66289735')
+                    .att('url', 'https://archive.org/download/maria_201611/maria.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/maria_201611/maria.mp3')
+                    .up()
                 .up();
 
 var app = express();
