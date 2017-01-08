@@ -190,6 +190,21 @@ var root = builder
                     .up()
                 .ele('guid', 'https://archive.org/download/maria_201611/maria.mp3')
                     .up()
+                .up()
+                .ele('item')
+                .ele('title', 'Episodul 11 - Bitch Planet și Monstress with Ioana Șopov')
+                    .up()
+                .ele('link', 'https://archive.org/download/ep111_201612/ep111.mp3')
+                    .up()
+                .ele('description', 'Episodul 11 - Bitch Planet și Monstress with Ioana Șopov')
+                    .up()
+                .ele('enclosure')
+                    .att('length', '54709934')
+                    .att('url', 'https://archive.org/download/ep111_201612/ep111.mp3')
+                    .att('type', 'audio/mpeg')
+                    .up()
+                .ele('guid', 'https://archive.org/download/ep111_201612/ep111.mp3')
+                    .up()
                 .up();
 
 var app = express();
